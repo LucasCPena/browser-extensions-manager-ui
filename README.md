@@ -36,7 +36,7 @@ cd projeto
 Abra o arquivo index.html no navegador.
 
 📸 Preview
-🔗 Demonstração Online (Se houver um link de deploy, adicione aqui!)
+🔗 Demonstração Online https://browser-extensions-manager.netlify.app/
 
 🤝 Contribuição
 Sinta-se à vontade para contribuir! Basta abrir uma issue ou pull request com sugestões e melhorias.
