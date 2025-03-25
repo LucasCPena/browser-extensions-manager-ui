@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Browser Extensions Manager UI</title>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="script.js" defer></script>
+</head>
+<body class="container-dark" id="body">
+  
+  <header>
+    <nav class="toggle-nav" aria-label="Main Navigation">
+      <img src="./assets/images/logo.svg" alt="Browser Extensions Manager Logo" class="icon-img">
+      <button class="toggle-button" id="toggleBtn" aria-label="Toggle Theme">
+        <img src="./assets/images/icon-sun.svg" alt="Toggle Light Mode" id="toggleImg" data-theme="light">
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="category-div">
+      <h1>Extensions List</h1>
+      <div class="category-list-div">
+        <button class="category-button active" id="allBtn" aria-pressed="true">ALL</button>
+        <button class="category-button" id="activeBtn" aria-pressed="false">Active</button>
+        <button class="category-button" id="inactiveBtn" aria-pressed="false">Inactive</button>
+      </div>
+    </section>
+
+    <section class="dynamic-lists" id="dynamicListDiv" aria-live="polite">
+      <!-- Dynamic List Items -->
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="#" target="_blank" rel="noopener noreferrer">Lucas Cicala Pena</a>.
+  </footer>
+
+</body>
+</html>

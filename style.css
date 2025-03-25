@@ -1,0 +1,292 @@
+@import url("./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf");
+@import url("./assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
+@import url("./assets/fonts/static/NotoSans-Bold.ttf");
+@import url("./assets/fonts/static/NotoSans-Medium.ttf");
+@import url("./assets/fonts/static/NotoSans-Regular.ttf");
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('./assets/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansItalic';
+    src: url('./assets/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NotoSansBold';
+    src: url('./assets/fonts/static/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansMedium';
+    src: url('./assets/fonts/static/NotoSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansRegular';
+    src: url('./assets/fonts/static/NotoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-dark {
+    background-image: linear-gradient(to bottom,#050a1d,#09153d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+    padding: 5% 10%;
+    font-family: "NotoSans";
+    margin: 0;
+}
+
+.container-light {
+    background-color: #ebf4fd;
+    color: black;
+    max-height: 100vh;
+    font-family: "NotoSans";
+    position: relative;
+    padding: 5% 10%;
+    margin: 0;
+}
+
+.container-light .toggle-nav{
+    background-color: white;
+    border: 1px solid rgb(209, 208, 208);
+    box-shadow: 3px 2px rgb(209, 209, 209);
+}
+
+.container-light .toggle-nav .toggle-button{
+    background-color: rgb(230, 229, 229);
+}
+
+.container-light .category-div .category-list-div .category-button{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(224, 223, 223);
+}
+
+.category-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: "NotoSans";
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.category-list-div{
+    display: flex;
+    gap: 10px;
+}
+
+.category-button{
+    background-color: #1f2535;
+    border: none;
+    outline: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.active{
+    background-color: red;
+    color: black;
+}
+
+.container-light .category-div .category-list-div .active{
+    background-color: red;
+    color: white;
+}
+
+.category-button:hover{
+    outline: 2px solid red;
+    background-color: #3b425e;
+}
+
+.toggle-nav{
+    background-color: #1f2535;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.dynamic-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+
+.icon-img{
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.toggle-button{
+    background-color: #2f354c;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#toggleImg{
+    height: 20px;
+}
+
+.toggle-button:hover{
+    background-color: #3b425e;
+}
+
+.item-text-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-text-div h2,p{
+    margin: 0;
+}
+
+.item-text-div h2{
+    font-size: 16px;
+}
+
+.item-text-div p{
+    color: rgb(177, 175, 175);
+    font-size: 14px;
+}
+
+.item-inner-top-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #525868; /* Cinza padrão (desativado) */
+    border-radius: 34px;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+/* Quando o checkbox está marcado */
+input:checked + .slider {
+    background-color: red; /* Cor quando ativo */
+}
+
+input:checked + .slider:before {
+    transform: translateX(13px);
+}
+
+
+.item-inner-bottom-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item-div{
+    max-width: 320px;
+    height: 160px;
+    margin: 5px;
+    margin-bottom: 5px;
+    background-color: #1f2535;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-light .dynamic-lists .item-div{
+    background-color: white;
+}
+
+.remove-btn{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #1f2535;
+    outline: none;
+    border: 1px solid #333949
+}
+
+.container-light .dynamic-lists .item-div .item-inner-bottom-div .remove-btn{
+    color: black;
+    background-color: white;
+}
+
+@media (max-width:481px) {
+    .icon-img{
+        height: 30px
+    }
+
+    .category-div{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
