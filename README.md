@@ -16,10 +16,7 @@ CSS3 (Flexbox, Gradientes, Responsividade)
 JavaScript (DOM Manipulation, Fetch API, Event Listeners)
 
 📂 Estrutura do Projeto
-plaintext
-Copiar
-Editar
-📁 projeto/
+📁 projeto/ <br>
 │── 📄 index.html       # Estrutura principal da página <br>
 │── 📄 styles.css       # Estilos da interface <br>
 │── 📄 script.js        # Lógica de interatividade <br>
