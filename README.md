@@ -20,11 +20,11 @@ plaintext
 Copiar
 Editar
 📁 projeto/
-│── 📄 index.html       # Estrutura principal da página
-│── 📄 styles.css       # Estilos da interface
-│── 📄 script.js        # Lógica de interatividade
-│── 📂 assets/          # Ícones, imagens e fontes
-│── 📄 data.json        # Arquivo com os dados carregados dinamicamente
+│── 📄 index.html       # Estrutura principal da página <br>
+│── 📄 styles.css       # Estilos da interface <br>
+│── 📄 script.js        # Lógica de interatividade <br>
+│── 📂 assets/          # Ícones, imagens e fontes <br>
+│── 📄 data.json        # Arquivo com os dados carregados dinamicamente <br>
 
 🚀 Como Rodar o Projeto
 Clone este repositório:
