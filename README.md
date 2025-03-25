@@ -29,15 +29,9 @@ Editar
 🚀 Como Rodar o Projeto
 Clone este repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/seu-usuario/seu-repositorio.git
 Acesse a pasta do projeto:
 
-bash
-Copiar
-Editar
 cd projeto
 Abra o arquivo index.html no navegador.
 
