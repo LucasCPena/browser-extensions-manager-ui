@@ -26,7 +26,7 @@ JavaScript (DOM Manipulation, Fetch API, Event Listeners)
 🚀 Como Rodar o Projeto
 Clone este repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/LucasCPena/browser-extensions-manager-ui
 Acesse a pasta do projeto:
 
 cd projeto
